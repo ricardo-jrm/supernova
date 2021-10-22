@@ -5,6 +5,12 @@
   "repository": "https://github.com/ricardo-jrm/nova.git",
   "author": "l1b3r_- <liber@ricardojrm.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "yarn next",
+    "start": "yarn next start",
+    "build": "yarn next build",
+    "export": "yarn next export"
+  },
   "dependencies": {
     "@emotion/cache": "^11.5.0",
     "@emotion/react": "^11.5.0",
