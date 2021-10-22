@@ -1,0 +1,8 @@
+{
+  "name": "@liber/nova",
+  "version": "1.0.0",
+  "description": "Boilerplate: React Typescript Material-UI Next",
+  "repository": "https://github.com/ricardo-jrm/nova.git",
+  "author": "l1b3r_- <liber@ricardojrm.com>",
+  "license": "MIT"
+}

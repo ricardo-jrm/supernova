@@ -1,2 +1,5 @@
 # nova
-web app boilerplate
+
+Boilerplate
+
+React Typescript Material-UI Next
