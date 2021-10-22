@@ -4,5 +4,9 @@
   "description": "Boilerplate: React Typescript Material-UI Next",
   "repository": "https://github.com/ricardo-jrm/nova.git",
   "author": "l1b3r_- <liber@ricardojrm.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
 }
