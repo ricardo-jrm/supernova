@@ -1,6 +1,6 @@
 # nova
 
-Lightweight Web App Boilerplate
+Lightweight Web App Boilerplate (WIP)
 
 - React 17
 - Typescript 4
