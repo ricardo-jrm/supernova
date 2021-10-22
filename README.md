@@ -1,5 +1,8 @@
 # nova
 
-Boilerplate
+Lightweight Web App Boilerplate
 
-React Typescript Material-UI Next
+- React 17
+- Typescript 4
+- Material-UI 5
+- Next 11
