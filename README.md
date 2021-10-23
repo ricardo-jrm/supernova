@@ -1,6 +1,6 @@
-# nova
+# supernova
 
-Lightweight Web App Boilerplate (WIP)
+Web App Boilerplate (WIP)
 
 - React 17
 - Typescript 4
