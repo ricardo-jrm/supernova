@@ -9,7 +9,8 @@
     "dev": "yarn next",
     "start": "yarn next start",
     "build": "yarn next build",
-    "export": "yarn next export"
+    "export": "yarn next export",
+    "lint": "yarn eslint"
   },
   "dependencies": {
     "@emotion/cache": "^11.5.0",
