@@ -53,6 +53,7 @@ Publish to GitHub (Public)
 
 ### <b>Dev Dependencies</b>
 
+- `React`
 - `Typescript`
 - `Prettier`
 - `ESLint`
@@ -60,6 +61,8 @@ Publish to GitHub (Public)
 - `Lint Staged`
 - `Husky`
 - `Jest`
+- `React Testing Library`
+- `Storybook`
 - `Gulp`
 - `Semantic Release`
 
