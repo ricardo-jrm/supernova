@@ -1,7 +1,6 @@
 import React from 'react';
 import { Story, Meta } from '@storybook/react';
-
-const Component = () => <>Hello World</>;
+import { Component } from './component';
 
 export default {
   title: 'Test',

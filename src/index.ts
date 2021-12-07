@@ -1,5 +1,9 @@
 /**
- * Exported package
+ * Exported Component
  */
+export { Component } from './component';
 
-export const novaHelloWorld = () => console.log('Hello World from Nova'); // eslint-disable-line no-console
+/**
+ * Exported Hook
+ */
+export { useHook } from './hook';
