@@ -21,13 +21,13 @@
 
 <br />
 
-### <b>Usage</b>
+### <b>Bootstrap</b>
 
 ```ts
 npx @ricardo-jrm/supernova
 ```
 
-Boilerplate `React` project bootstrapped with `Typescript`, and all necessary configs and workflows
+Boilerplate `React` project bootstrapped with all necessary configs and workflows
 
 <br />
 
@@ -40,8 +40,14 @@ Quality Assurance
 
 Release
 
-- Will create a release with auto generated versioning and changelog
+- Will create a GitHub release with auto generated versioning and changelog
+- Will publish the package to the public NPM registry
 - Runs on `push` to `main` and after the QA job
+
+Publish to GitHub (Public)
+
+- Will publish the package to the public GitHub registry
+- Runs on `workflow_dispatch`
 
 <br />
 
@@ -56,6 +62,28 @@ Release
 - `Jest`
 - `Gulp`
 - `Semantic Release`
+
+<br />
+
+---
+
+<br />
+
+### <b>Install</b>
+
+```ts
+npm install @ricardo-jrm/supernova
+
+yarn add @ricardo-jrm/supernova
+```
+
+<br />
+
+### <b>Usage</b>
+
+```ts
+
+```
 
 <br />
 
