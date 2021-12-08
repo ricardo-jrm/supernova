@@ -1,6 +1,9 @@
 import { useState } from 'react';
 
-export const useHook = (initialValue: any) => {
-  const hook = useState(initialValue);
-  return [...hook];
+/**
+ * Exported Hook
+ */
+export const useHook = <T>(initialValue: T) => {
+  const [state, stateSet] = useState<T>(initialValue);
+  return [state, stateSet];
 };

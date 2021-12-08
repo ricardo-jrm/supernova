@@ -9,8 +9,10 @@ it('sums 5 and 2 returns 7', () => {
   expect(sum(5, 2)).toBe(7);
 });
 
-it('renders test component', () => {
-  render(<Component />);
-  const myEl = screen.getByTestId('test-component');
-  expect(myEl).toBeInTheDocument();
+describe('example test suite', () => {
+  it('renders test component', () => {
+    render(<Component text="Hello World" />);
+    const myEl = screen.getByTestId('test-component');
+    expect(myEl).toBeInTheDocument();
+  });
 });

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Story, Meta } from '@storybook/react';
-import { Component } from './component';
+import { Component, ComponentProps } from './component';
 
 export default {
   title: 'Test',
@@ -10,4 +10,6 @@ export default {
   },
 } as Meta;
 
-export const StoryComponent: Story<any> = (args) => <Component {...args} />;
+export const StoryComponent: Story<ComponentProps> = (args) => (
+  <Component {...args} text="Hello World" />
+);
