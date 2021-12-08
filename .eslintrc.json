@@ -13,6 +13,7 @@
       }
     }
   },
+  "plugins": ["@typescript-eslint", "jest", "testing-library"],
   "extends": [
     "prettier",
     "airbnb",
@@ -36,7 +37,15 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": ["@typescript-eslint", "jest"],
+  "overrides": [
+    {
+      "files": [
+        "**/__tests__/**/*.[jt]s?(x)",
+        "**/?(*.)+(spec|test).[jt]s?(x)"
+      ],
+      "extends": ["plugin:testing-library/react"]
+    }
+  ],
   "rules": {
     "import/prefer-default-export": 0,
     "import/extensions": 0,
