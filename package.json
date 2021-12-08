@@ -22,6 +22,7 @@
   "keywords": [
     "react",
     "react-testing-library",
+    "storybook",
     "typescript",
     "npm",
     "eslint",
@@ -41,7 +42,7 @@
     "test:watch": "jest --watch",
     "prepare": "husky install",
     "semantic-release": "semantic-release --branches main",
-    "sb": "start-storybook -p 1337 --ci -s ./src/public",
+    "sb": "start-storybook -p 1337 --ci -s ./public",
     "build-storybook": "build-storybook"
   },
   "devDependencies": {
