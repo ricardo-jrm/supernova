@@ -3,7 +3,7 @@
   "description": "React Module Boilerplate",
   "version": "0.0.0-development",
   "bin": "bin.js",
-  "main": "dist/index.min.js",
+  "main": "out/index.min.js",
   "types": "out/index.d.ts",
   "private": false,
   "repository": {
@@ -44,11 +44,6 @@
     "sb": "start-storybook -p 1337 --ci -s ./src/public",
     "build-storybook": "build-storybook"
   },
-  "jest": {
-    "transform": {
-      "^.+\\.[t|j]sx?$": "babel-jest"
-    }
-  },
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.4",
@@ -84,6 +79,7 @@
     "lint-staged": "^12.1.2",
     "prettier": "^2.4.1",
     "semantic-release": "^18.0.1",
+    "ts-jest": "^27.1.0",
     "tsc-files": "^1.1.3",
     "typescript": "^4.4.4"
   },
