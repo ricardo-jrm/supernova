@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { exec } from 'child_process';
+const { exec } = require('child_process');
 
 exec(
   'npx degit https://github.com/ricardo-jrm/supernova.git --force',
