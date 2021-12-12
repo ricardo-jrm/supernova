@@ -1,15 +1,15 @@
 import React from 'react';
 import { Story, Meta } from '@storybook/react';
-import { Component, ComponentProps } from './component';
+import { ExampleComponent, ExampleComponentProps } from './component';
 
 export default {
-  title: 'Test',
-  component: Component,
+  title: 'Example',
+  component: ExampleComponent,
   parameters: {
-    componentSubtitle: 'Component Test',
+    componentSubtitle: 'Component Example',
   },
 } as Meta;
 
-export const StoryComponent: Story<ComponentProps> = (args) => (
-  <Component {...args} text="Hello World" />
+export const StoryComponent: Story<ExampleComponentProps> = (args) => (
+  <ExampleComponent {...args} text="Hello World" />
 );

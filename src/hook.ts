@@ -1,9 +1,9 @@
 import { Dispatch, SetStateAction, useState } from 'react';
 
 /**
- * Exported Hook
+ * useExampleHook
  */
-export const useHook = <T>(
+export const useExampleHook = <T>(
   initialValue: T,
 ): (T | Dispatch<SetStateAction<T>>)[] => {
   const [state, stateSet] = useState<T>(initialValue);

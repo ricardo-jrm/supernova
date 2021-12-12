@@ -85,7 +85,7 @@ yarn add @ricardo-jrm/supernova
 ### <b>Usage</b>
 
 ```ts
-import { Component, useHook } from '@ricardo-jrm/supernova';
+import { ExampleComponent, useExampleHook } from '@ricardo-jrm/supernova';
 ```
 
 <br />

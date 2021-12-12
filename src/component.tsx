@@ -1,16 +1,16 @@
 import React from 'react';
 
 /**
- * Exported component
+ * ExampleComponent
  */
-export const Component = ({ text }: ComponentProps) => (
-  <div data-testid="test-component">{text}</div>
+export const ExampleComponent = ({ text }: ExampleComponentProps) => (
+  <span data-testid="test-component">{text}</span>
 );
 
 /**
- * Exported component props
+ * ExampleComponent props
  */
-export interface ComponentProps {
+export interface ExampleComponentProps {
   /**
    * Prop
    */
