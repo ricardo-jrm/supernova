@@ -33,8 +33,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "build:tsc-files": "tsc-files --noEmit",
-    "bundle": "webpack",
+    "compile:noemit": "tsc-files --noEmit",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "prettier:fix": "prettier --write --ignore-unknown .",
