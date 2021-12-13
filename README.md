@@ -63,7 +63,7 @@ Publish to GitHub (Public)
 - `Jest`
 - `React Testing Library`
 - `Storybook`
-- `Gulp`
+- `Webpack`
 - `Semantic Release`
 
 <br />
