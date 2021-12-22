@@ -9,6 +9,7 @@ describe('test example hook', () => {
   });
   it('should update to 1337', () => {
     const { result } = renderHook(() => useExampleHook<number>(69));
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [state, stateSet] = result.current;
     act(() => {
       stateSet(1337);
