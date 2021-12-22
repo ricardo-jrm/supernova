@@ -85,7 +85,24 @@ yarn add @ricardo-jrm/supernova
 ### <b>Usage</b>
 
 ```ts
-import { ExampleComponent, useExampleHook } from '@ricardo-jrm/supernova';
+// hook
+import { useExampleHook, ExampleHookType } from '@ricardo-jrm/supernova';
+
+// context
+import {
+  ExampleContext,
+  useExampleContext,
+  ExampleContextType,
+} from '@ricardo-jrm/supernova';
+
+// component
+import {
+  ExampleComponent,
+  ExampleComponentProps,
+} from '@ricardo-jrm/supernova';
+
+// provider
+import { ExampleProvider, ExampleProviderProps } from '@ricardo-jrm/supernova';
 ```
 
 <br />
