@@ -53,8 +53,8 @@ Publish to GitHub (Public)
 
 ### <b>Dev Dependencies</b>
 
-- `React`
 - `Typescript`
+- `React`
 - `Prettier`
 - `ESLint`
 - `Commit Lint`
