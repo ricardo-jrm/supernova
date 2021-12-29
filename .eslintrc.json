@@ -80,6 +80,8 @@
     "react/jsx-one-expression-per-line": 0,
     "react/jsx-indent": 0,
     "react/jsx-closing-tag-location": 0,
-    "jsx-quotes": 0
+    "jsx-quotes": 0,
+    "no-empty-pattern": "warn",
+    "no-multi-spaces": "warn"
   }
 }
