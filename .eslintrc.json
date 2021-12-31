@@ -82,6 +82,7 @@
     "react/jsx-closing-tag-location": 0,
     "jsx-quotes": 0,
     "no-empty-pattern": "warn",
-    "no-multi-spaces": "warn"
+    "no-multi-spaces": "warn",
+    "react/jsx-indent-props": "warn"
   }
 }
