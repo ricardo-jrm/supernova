@@ -1,5 +1,8 @@
 import React, { useMemo } from 'react';
-import { ExampleContext, ExampleContextType } from '../../contexts/example';
+import {
+  ExampleContext,
+  ExampleContextType,
+} from '../../contexts/ExampleContext';
 
 /**
  * ExampleProviderProps
