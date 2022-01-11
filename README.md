@@ -23,7 +23,7 @@
 
 ### <b>Bootstrap</b>
 
-```ts
+```tsx
 npx @ricardo-jrm/supernova
 ```
 
@@ -51,8 +51,64 @@ Publish to GitHub (Public)
 
 <br />
 
+---
+
+<br />
+
+### <b>Project</b>
+
+- [Project Page](https://www.notion.so/l1b3r/supernova-382adadc317c4ec189b6643bcdfffc09)
+- [M0: MVP](https://www.notion.so/l1b3r/M0-MVP-afcf4afd5c054cdb9650f7353780c79a)
+- [Source Code](https://github.com/ricardo-jrm/supernova)
+- [Releases Page](https://github.com/ricardo-jrm/supernova/releases)
+
+<br />
+
+### <b>Install</b>
+
+```tsx
+npm install @ricardo-jrm/supernova
+
+yarn add @ricardo-jrm/supernova
+```
+
+<br />
+
+### <b>Usage</b>
+
+```tsx
+// component
+import {
+  ExampleComponent,
+  ExampleComponentProps,
+} from '@ricardo-jrm/supernova';
+
+// hook
+import { useExampleHook, ExampleHookType } from '@ricardo-jrm/supernova';
+
+// context
+import {
+  ExampleContext,
+  useExampleContext,
+  ExampleContextType,
+} from '@ricardo-jrm/supernova';
+
+// provider
+import { ExampleProvider, ExampleProviderProps } from '@ricardo-jrm/supernova';
+```
+
+<br />
+
+### <b>Project Dependencies</b>
+
+- <b>TS Package Boilerplate: [🟪 @ricardo-jrm/nova](https://github.com/ricardo-jrm/nova)</b>
+- <b>React Module Boilerplate: [🟣 @ricardo-jrm/supernova](https://github.com/ricardo-jrm/supernova)</b>
+
+<br />
+
 ### <b>Dev Dependencies</b>
 
+- `Yarn`
 - `Typescript`
 - `React`
 - `Prettier`
@@ -65,45 +121,6 @@ Publish to GitHub (Public)
 - `Storybook`
 - `Webpack`
 - `Semantic Release`
-
-<br />
-
----
-
-<br />
-
-### <b>Install</b>
-
-```ts
-npm install @ricardo-jrm/supernova
-
-yarn add @ricardo-jrm/supernova
-```
-
-<br />
-
-### <b>Usage</b>
-
-```ts
-// hook
-import { useExampleHook, ExampleHookType } from '@ricardo-jrm/supernova';
-
-// context
-import {
-  ExampleContext,
-  useExampleContext,
-  ExampleContextType,
-} from '@ricardo-jrm/supernova';
-
-// component
-import {
-  ExampleComponent,
-  ExampleComponentProps,
-} from '@ricardo-jrm/supernova';
-
-// provider
-import { ExampleProvider, ExampleProviderProps } from '@ricardo-jrm/supernova';
-```
 
 <br />
 
