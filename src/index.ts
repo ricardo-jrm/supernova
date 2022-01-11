@@ -1,5 +1,5 @@
-export { ExampleComponent } from './components/Example';
-export type { ExampleComponentProps } from './components/Example';
+export { ExampleComponent } from './components/_Example';
+export type { ExampleComponentProps } from './components/_Example';
 
 export { useExampleHook } from './hooks/useExampleHook';
 export type { ExampleHookType } from './hooks/useExampleHook';
