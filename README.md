@@ -57,8 +57,8 @@ Publish to GitHub (Public)
 
 ### <b>Project</b>
 
-- [Project Page](https://www.notion.so/l1b3r/supernova-382adadc317c4ec189b6643bcdfffc09)
-- [M0: MVP](https://www.notion.so/l1b3r/M0-MVP-afcf4afd5c054cdb9650f7353780c79a)
+- [Project Page](https://l1b3r.notion.site/supernova-382adadc317c4ec189b6643bcdfffc09)
+- [M0: MVP](https://l1b3r.notion.site/M0-MVP-afcf4afd5c054cdb9650f7353780c79a)
 - [Source Code](https://github.com/ricardo-jrm/supernova)
 - [Releases Page](https://github.com/ricardo-jrm/supernova/releases)
 
