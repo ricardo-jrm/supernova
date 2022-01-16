@@ -104,6 +104,9 @@ yarn lint
 
 // run unit tests
 yarn test
+
+// run storybook
+yarn sb
 ```
 
 <br />
