@@ -55,15 +55,6 @@ Publish to GitHub (Public)
 
 <br />
 
-### <b>Project</b>
-
-- [Project Page](https://l1b3r.notion.site/supernova-382adadc317c4ec189b6643bcdfffc09)
-- [M0: MVP](https://l1b3r.notion.site/M0-MVP-afcf4afd5c054cdb9650f7353780c79a)
-- [Source Code](https://github.com/ricardo-jrm/supernova)
-- [Releases Page](https://github.com/ricardo-jrm/supernova/releases)
-
-<br />
-
 ### <b>Install</b>
 
 ```tsx
@@ -96,6 +87,36 @@ import {
 // provider
 import { ExampleProvider, ExampleProviderProps } from '@ricardo-jrm/supernova';
 ```
+
+<br />
+
+### <b>Scripts</b>
+
+```tsx
+// install deps
+yarn install
+
+// run dev
+yarn dev
+
+// run build
+yarn build
+
+// run lint
+yarn lint
+
+// run unit tests
+yarn test
+```
+
+<br />
+
+### <b>Project</b>
+
+- [Project Page](https://l1b3r.notion.site/supernova-382adadc317c4ec189b6643bcdfffc09)
+- [M0: MVP](https://l1b3r.notion.site/M0-MVP-afcf4afd5c054cdb9650f7353780c79a)
+- [Source Code](https://github.com/ricardo-jrm/supernova)
+- [Releases Page](https://github.com/ricardo-jrm/supernova/releases)
 
 <br />
 
