@@ -96,9 +96,6 @@ import { ExampleProvider, ExampleProviderProps } from '@ricardo-jrm/supernova';
 // install deps
 yarn install
 
-// run dev
-yarn dev
-
 // run build
 yarn build
 
