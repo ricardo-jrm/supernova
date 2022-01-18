@@ -92,6 +92,7 @@
     "block-spacing": "warn",
     "brace-style": "warn",
     "react/jsx-closing-bracket-location": "warn",
-    "jest/valid-title": "warn"
+    "jest/valid-title": "warn",
+    "jest/valid-expect": "warn"
   }
 }
