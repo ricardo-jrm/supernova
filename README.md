@@ -1,17 +1,17 @@
 <div align="center">
 
-# 🟣 `@ricardo-jrm/supernova`
+# 🟣 `@ricardojrmcom/supernova`
 
 <b>React Module Boilerplate</b>
 
-![build](https://img.shields.io/github/workflow/status/ricardo-jrm/supernova/Continuous%20Integration?style=for-the-badge)
-![license](https://img.shields.io/github/license/ricardo-jrm/supernova?style=for-the-badge)
+![build](https://img.shields.io/github/workflow/status/ricardojrmcom/supernova/Continuous%20Integration?style=for-the-badge)
+![license](https://img.shields.io/github/license/ricardojrmcom/supernova?style=for-the-badge)
 
-![author](<https://img.shields.io/badge/Author-Ricardo%20%3Cl1b3r__--%3E%20Mota%20(%40ricardo--jrm)-orange?style=for-the-badge>)
+![author](<https://img.shields.io/badge/Author-Ricardo%20%3Cl1b3r__--%3E%20Mota%20(%40ricardojrmcom)-orange?style=for-the-badge>)
 
-![lang](https://img.shields.io/github/languages/top/ricardo-jrm/supernova?style=for-the-badge)
-![version](https://img.shields.io/npm/v/@ricardo-jrm/supernova?style=for-the-badge)
-![size](https://img.shields.io/bundlephobia/min/@ricardo-jrm/supernova?style=for-the-badge)
+![lang](https://img.shields.io/github/languages/top/ricardojrmcom/supernova?style=for-the-badge)
+![version](https://img.shields.io/npm/v/@ricardojrmcom/supernova?style=for-the-badge)
+![size](https://img.shields.io/bundlephobia/min/@ricardojrmcom/supernova?style=for-the-badge)
 
 </div>
 
@@ -24,7 +24,7 @@
 ### <b>Bootstrap</b>
 
 ```tsx
-npx @ricardo-jrm/supernova
+npx @ricardojrmcom/supernova
 ```
 
 Boilerplate `React` project bootstrapped with all necessary configs and workflows
@@ -58,9 +58,9 @@ Publish to GitHub (Public)
 ### <b>Install</b>
 
 ```tsx
-npm install @ricardo-jrm/supernova
+npm install @ricardojrmcom/supernova
 
-yarn add @ricardo-jrm/supernova
+yarn add @ricardojrmcom/supernova
 ```
 
 <br />
@@ -72,20 +72,23 @@ yarn add @ricardo-jrm/supernova
 import {
   ExampleComponent,
   ExampleComponentProps,
-} from '@ricardo-jrm/supernova';
+} from '@ricardojrmcom/supernova';
 
 // hook
-import { useExampleHook, ExampleHookType } from '@ricardo-jrm/supernova';
+import { useExampleHook, ExampleHookType } from '@ricardojrmcom/supernova';
 
 // context
 import {
   ExampleContext,
   useExampleContext,
   ExampleContextType,
-} from '@ricardo-jrm/supernova';
+} from '@ricardojrmcom/supernova';
 
 // provider
-import { ExampleProvider, ExampleProviderProps } from '@ricardo-jrm/supernova';
+import {
+  ExampleProvider,
+  ExampleProviderProps,
+} from '@ricardojrmcom/supernova';
 ```
 
 <br />
@@ -114,15 +117,15 @@ yarn sb
 ### <b>Project</b>
 
 - [Project Page](https://l1b3r.notion.site/supernova-382adadc317c4ec189b6643bcdfffc09)
-- [Source Code](https://github.com/ricardo-jrm/supernova)
-- [Releases Page](https://github.com/ricardo-jrm/supernova/releases)
+- [Source Code](https://github.com/ricardojrmcom/supernova)
+- [Releases Page](https://github.com/ricardojrmcom/supernova/releases)
 
 <br />
 
 ### <b>Project Dependencies</b>
 
-- <b>TS Package Boilerplate: [🟪 @ricardo-jrm/nova](https://github.com/ricardo-jrm/nova)</b>
-- <b>React Module Boilerplate: [🟣 @ricardo-jrm/supernova](https://github.com/ricardo-jrm/supernova)</b>
+- <b>TS Package Boilerplate: [🟪 @ricardojrmcom/nova](https://github.com/ricardojrmcom/nova)</b>
+- <b>React Module Boilerplate: [🟣 @ricardojrmcom/supernova](https://github.com/ricardojrmcom/supernova)</b>
 
 <br />
 
@@ -150,8 +153,8 @@ yarn sb
 
 ### <b>License</b>
 
-[MIT](https://github.com/ricardo-jrm/supernova/blob/main/LICENSE) © Ricardo <l1b3r\_-> Mota ([@ricardo-jrm](https://github.com/ricardo-jrm))
+[MIT](https://github.com/ricardojrmcom/supernova/blob/main/LICENSE) © Ricardo <l1b3r\_-> Mota ([@ricardojrmcom](https://github.com/ricardojrmcom))
 
-Bootstrapped with 🟣[@ricardo-jrm/supernova](https://github.com/ricardo-jrm/supernova)
+Bootstrapped with 🟣[@ricardojrmcom/supernova](https://github.com/ricardojrmcom/supernova)
 
 <br />
